@@ -7,12 +7,10 @@ import java.math.BigInteger;
 
 public class AcaoBotao implements ActionListener {
 
-    // Atributos
     private final JTextField primeiro;
     private final JTextField segundo;
     private final JLabel resultado;
 
-    // Construtor
     public AcaoBotao(JTextField primeiro, JTextField segundo, JLabel resultado) {
         this.primeiro = primeiro;
         this.segundo = segundo;
@@ -21,17 +19,28 @@ public class AcaoBotao implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        long valor1 = Long.parseLong(primeiro.getText());
-        long valor2 = Long.parseLong(segundo.getText());
-        BigInteger calculo = new BigInteger("0");
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                long valor1 = Long.parseLong(primeiro.getText());
+                long valor2 = Long.parseLong(segundo.getText());
+                BigInteger calculo = new BigInteger("0");
 
-        for (int i = 0; i < valor1; i++) {
-            for (int j = 0; j < valor2; j++) {
-                calculo = calculo.add(BigInteger.ONE);
+                for (int i = 0; i < valor1; i++) {
+                    for (int j = 0; j < valor2; j++) {
+                        calculo = calculo.add(BigInteger.ONE);
+                    }
+                }
+
+                final BigInteger finalCalculo = calculo;
+                SwingUtilities.invokeLater(new Runnable() {
+                    @Override
+                    public void run() {
+                        resultado.setText(finalCalculo.toString());
+                    }
+                });
             }
-        }
-        resultado.setText(calculo.toString());
+        });
+        thread.start();
     }
-
-
 }

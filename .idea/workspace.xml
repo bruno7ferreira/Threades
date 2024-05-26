@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d1ebf27-799c-46fc-b6ec-4273a0805e35" name="Changes" comment="Exercicio">
-      <change afterPath="$PROJECT_DIR$/src/br/com/bruno/threads/AcaoBotaoLimpar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bruno/threads/AcaoBotao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bruno/threads/AcaoBotao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bruno/threads/TelaOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bruno/threads/TelaOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bruno7ferreira"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bruno7ferreira/Threades.git",
+    "accountId": "f6afe5d9-ab4a-461f-b0e5-0db173a79d20"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -107,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716750370955</updated>
       <workItem from="1716750372026" duration="2494000" />
-      <workItem from="1716755075427" duration="5067000" />
+      <workItem from="1716755075427" duration="6929000" />
     </task>
     <task id="LOCAL-00001" summary="Exercicio">
       <option name="closed" value="true" />
@@ -125,7 +135,39 @@
       <option name="project" value="LOCAL" />
       <updated>1716758157225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exercicio">
+      <option name="closed" value="true" />
+      <created>1716762693978</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716762693978</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Exercicio">
+      <option name="closed" value="true" />
+      <created>1716762722702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716762722702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exercicio">
+      <option name="closed" value="true" />
+      <created>1716762787198</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716762787198</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exercicio">
+      <option name="closed" value="true" />
+      <created>1716762885807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716762885807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

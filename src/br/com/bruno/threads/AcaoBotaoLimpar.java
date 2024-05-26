@@ -10,7 +10,6 @@ public class AcaoBotaoLimpar implements ActionListener {
     private final JTextField segundo;
     private final JLabel resultado;
 
-    // Construtor
     public AcaoBotaoLimpar(JTextField primeiro, JTextField segundo, JLabel resultado) {
         this.primeiro = primeiro;
         this.segundo = segundo;
@@ -21,6 +20,6 @@ public class AcaoBotaoLimpar implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         primeiro.setText("");
         segundo.setText("");
-        resultado.setText(" ?");
+        resultado.setText("?");
     }
 }
