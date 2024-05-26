@@ -6,9 +6,9 @@ import java.awt.event.ActionListener;
 
 public class AcaoBotaoLimpar implements ActionListener {
 
-    private JTextField primeiro;
-    private JTextField segundo;
-    private JLabel resultado;
+    private final JTextField primeiro;
+    private final JTextField segundo;
+    private final JLabel resultado;
 
     // Construtor
     public AcaoBotaoLimpar(JTextField primeiro, JTextField segundo, JLabel resultado) {

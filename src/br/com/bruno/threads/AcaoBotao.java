@@ -8,9 +8,9 @@ import java.math.BigInteger;
 public class AcaoBotao implements ActionListener {
 
     // Atributos
-    private JTextField primeiro;
-    private JTextField segundo;
-    private JLabel resultado;
+    private final JTextField primeiro;
+    private final JTextField segundo;
+    private final JLabel resultado;
 
     // Construtor
     public AcaoBotao(JTextField primeiro, JTextField segundo, JLabel resultado) {
